@@ -1,0 +1,134 @@
+#marketplace {
+  .editor-dropdown-menu {
+    background: #fff;
+    box-shadow: 0 4px 8px 0 rgba(24, 22, 53, 0.2);
+    border-radius: 4px;
+    font-size: 11px;
+    line-height: 2;
+    letter-spacing: 1px;
+    color: rgba(24, 22, 53, 0.8);
+    text-transform: uppercase;
+    padding: 13px 0 5px;
+    position: absolute;
+    z-index: 1000;
+    margin-top: 1px;
+    font-weight: 500;
+    top: 50px;
+  }
+
+  .editor-dropdown-field {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    min-height: 30px;
+    margin-bottom: 10px;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    cursor: pointer;
+  }
+
+  .editor-dropdown-field:hover {
+    background-color: rgba(24, 22, 53, 0.05);
+    color: #181635;
+  }
+
+  .editor-dropdown-menu .is-selected {
+    //background: url('/assets/images/tick.svg') no-repeat center;
+    //background-position-x: calc(100% - 13px);
+    //background-size: 12px;
+  }
+
+  .editor-dropdown-state {
+    background-color: rgba(24, 22, 53, 0.2);
+  }
+
+  .editor-dropdown-option {
+    line-height: 40px;
+    cursor: pointer;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-right: 53px;
+  }
+
+  .editor-dropdown-option:hover {
+    background-color: rgba(137, 166, 188, 0.2);
+  }
+
+  .editor-dropdown-option-label {
+    margin-left: 15px;
+  }
+
+  .editor-dropdown_block {
+    display: inline-block;
+    max-width: 960px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 40px;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-align: stretch;
+    -webkit-align-items: stretch;
+    -ms-flex-align: stretch;
+    align-items: stretch;
+    border-radius: 5px;
+    background-image: -webkit-linear-gradient(270deg, #fff, #fff);
+    background-image: linear-gradient(180deg, #fff, #fff);
+    box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.1);
+  }
+
+  .editor-dropdown-root {
+    display: inline-block;
+    height: 50px;
+    margin-right: 20px;
+    //margin-bottom: 20px;//TODO fix
+    float: left;
+    position: relative;
+  }
+
+  .editor-dropdown-control {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    height: 50px;
+    padding-top: 3px;
+    float: left;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .editor-dropdown-control:hover {
+    border-color: #2979ff;
+  }
+
+  .editor-dropdown-placeholder {
+    margin-right: 40px;
+    margin-left: 15px;
+  }
+
+  .editor-dropdown-arrow {
+    position: relative;
+    right: 15px;
+    width: 10px;
+    height: 10px;
+    background-image: url("/techservices/images/arrow_small.svg");
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+  }
+}
