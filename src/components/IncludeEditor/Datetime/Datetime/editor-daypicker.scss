@@ -1,0 +1,53 @@
+.DayPicker-Editor-Caption {
+  background: rgba(24, 22, 53, 0.05);
+  color: rgba(24, 22, 53, 0.8);
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.DayPicker-Editor-NavButton--prev {
+  background-image: url("/techservices/images/editor-calendar-left.svg");
+}
+
+.DayPicker-Editor-NavButton--next {
+  background-image: url("/techservices/images/editor-calendar-right.svg");
+}
+
+.DayPicker-Editor-Day:hover {
+  background: url("/techservices/images/calendar-select-cur_day.svg") no-repeat
+    7px 2px;
+  background-size: 30px;
+}
+
+.DayPicker-Editor-Day--disabledFuture {
+  color: #d7d6dd;
+}
+
+.DayPicker-Editor-Day--todayDate {
+  font-weight: 900;
+}
+
+.DayPicker-Editor-Day--clickDates {
+  background-image: url("/techservices/images/calendar-select-day_filter.svg") !important;
+  background-repeat: no-repeat;
+  background-position: 7px 2px;
+  background-size: 30px;
+  color: #fff;
+  font-weight: 400;
+}
+
+.DayPicker-Editor-Day--pastDates {
+  background: url("/techservices/images/calendar-select-day_past.svg") no-repeat
+    7px 2px;
+  background-size: 30px;
+  color: #fff;
+  font-weight: 400;
+}
+
+.DayPicker-Editor-Day--futureDates {
+  background: url("/techservices/images/calendar-select-day_future.svg")
+    no-repeat 7px 2px;
+  background-size: 30px;
+  color: #fff;
+  font-weight: 400;
+}
