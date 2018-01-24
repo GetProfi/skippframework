@@ -46,9 +46,18 @@ module.exports = {
     ]
   },
   externals: {
-    react: "react",
-    redux: "redux",
-    lodash: "lodash"
+    'react': {
+      'commonjs': 'react',
+      'commonjs2': 'react',
+      'amd': 'react',
+      'root': 'React'
+    },
+    'react-dom': {
+      'commonjs': 'react-dom',
+      'commonjs2': 'react-dom',
+      'amd': 'react-dom',
+      'root': 'ReactDOM'
+    }
   },
   resolve: {
     modules: ["src", "node_modules"],
